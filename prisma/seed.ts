@@ -109,7 +109,7 @@ async function seedCollegeFees() {
     formattedFees.push({ collegeName, collegeShortName, fees, instType })
   }
 
-  await prisma.collegeFee.createMany({
+  await prisma.collegeFeeV2.createMany({
     data: formattedFees,
     skipDuplicates: true,
   })

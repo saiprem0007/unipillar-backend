@@ -13,97 +13,81 @@ model User {
   email                   String                  @unique
   mobile                  String                  @unique
   password                String
-  isPremium               Boolean                 @default(false)
-  userType                String                  @default("free")
   createdAt               DateTime                @default(now())
   resetOtp                String?
   resetOtpExpiry          DateTime?
-
-  profile                 UserProfile?
-
-  josaaAllocations        JosaaAllocation[]
+  isPremium               Boolean                 @default(false)
+  userType                String                  @default("free")
   csabAllocations         CsabAllocation[]
-
-  recommendationHistories RecommendationHistory[]
+  josaaAllocations        JosaaAllocation[]
   payments                Payment[]
+  recommendationHistories RecommendationHistory[]
+  profile                 UserProfile?
 }
 
 model UserProfile {
   id          String   @id @default(cuid())
-
   userId      String   @unique
-  user        User     @relation(fields: [userId], references: [id])
-
   category    String?
   gender      String?
   pwd         String?
   homeState   String?
-
   jeeMains    Int?
   jeeAdvanced Int?
-
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
+  user        User     @relation(fields: [userId], references: [id])
 }
 
 model JosaaAllocation {
   id        String   @id @default(cuid())
-
   userId    String
-  user      User     @relation(fields: [userId], references: [id])
-
   round     Int
   college   String
   branch    String
   status    String
-
   createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
 }
 
 model CsabAllocation {
   id        String   @id @default(cuid())
-
   userId    String
-  user      User     @relation(fields: [userId], references: [id])
-
   round     Int
   college   String
   branch    String
   status    String
-
   createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
 }
 
 model PendingSignup {
-  id        String   @id @default(cuid())
-  name      String
-  email     String   @unique
-  mobile    String   @unique
-  password  String
-  isPremium Boolean  @default(false)
-  userType  String   @default("free")
-  otp       String
-  otpExpiry DateTime
+  id             String    @id @default(cuid())
+  name           String
+  email          String    @unique
+  mobile         String    @unique
+  password       String
+  otp            String
+  otpExpiry      DateTime
+  createdAt      DateTime  @default(now())
+  isPremium      Boolean   @default(false)
   resetOtp       String?
   resetOtpExpiry DateTime?
-  createdAt DateTime @default(now())
+  userType       String    @default("free")
 }
 
 model Payment {
-  id                 String   @id @default(cuid())
-  userId             String
-  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  razorpayOrderId    String   @unique
-  razorpayPaymentId  String?
-
-  amount             Int
-  currency           String   @default("INR")
-  plan               String
-  status             String   @default("PENDING")
-
-  createdAt          DateTime @default(now())
-  updatedAt          DateTime @updatedAt
+  id                String   @id @default(cuid())
+  userId            String
+  razorpayOrderId   String   @unique
+  razorpayPaymentId String?
+  amount            Int
+  currency          String   @default("INR")
+  plan              String
+  status            String   @default("PENDING")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId])
 }
@@ -121,15 +105,23 @@ model SeatRecord {
   round       Int
   isPwd       String
   createdAt   DateTime @default(now())
+
   @@unique([institute, program, quota, seatType, gender, year, round, isPwd])
 }
 
-model CollegeFee {
-  id               String @id @default(cuid())
-  collegeName      String
-  collegeShortName String @unique
-  fees             Int
-  instType         String
+
+model CollegeFeeV2 {
+  id String @id @default(cuid())
+
+  college String
+  category String
+
+  tuitionFee Int
+  semesterFee Int
+  nonRefundableOneTimePayment Int
+  hostelMessFee Int
+  refundableDeposit Int
+  totalAmount Int
 }
 
 model CutoffPrediction {
@@ -149,39 +141,39 @@ model CutoffPrediction {
 }
 
 model PreferenceProfile {
-  id String @id @default(cuid())
-  mainCategoryRank Int
-  advCategoryRank Int?
-  category String
-  homeState String
-  gender String
-  hometownWeight Int
-  collegeWeight Int
-  branchWeight Int
+  id                String                  @id @default(cuid())
+  category          String
+  homeState         String
+  gender            String
+  hometownWeight    Int
+  collegeWeight     Int
+  branchWeight      Int
+  createdAt         DateTime                @default(now())
+  advCategoryRank   Int?
+  mainCategoryRank  Int
   preferredBranches Json
-  createdAt DateTime @default(now())
-  generatedLists GeneratedList[]
-  histories RecommendationHistory[]
+  generatedLists    GeneratedList[]
+  histories         RecommendationHistory[]
 }
 
 model GeneratedList {
-  id String @id @default(cuid())
-  profileId String
+  id               String                  @id @default(cuid())
+  profileId        String
+  createdAt        DateTime                @default(now())
   generatedResults Json
-  totalResults Int
-  createdAt DateTime @default(now())
-  profile PreferenceProfile @relation(fields: [profileId], references: [id])
-  histories RecommendationHistory[]
+  totalResults     Int
+  profile          PreferenceProfile       @relation(fields: [profileId], references: [id])
+  histories        RecommendationHistory[]
 }
 
 model RecommendationHistory {
-  id String @id @default(cuid())
-  userId String?
-  profileId String?
+  id              String             @id @default(cuid())
+  userId          String?
+  profileId       String?
+  pdfUrl          String?
+  createdAt       DateTime           @default(now())
   generatedListId String
-  pdfUrl String?
-  createdAt DateTime @default(now())
-  user User? @relation(fields: [userId], references: [id])
-  profile PreferenceProfile? @relation(fields: [profileId], references: [id])
-  generatedList GeneratedList @relation(fields: [generatedListId], references: [id])
+  generatedList   GeneratedList      @relation(fields: [generatedListId], references: [id])
+  profile         PreferenceProfile? @relation(fields: [profileId], references: [id])
+  user            User?              @relation(fields: [userId], references: [id])
 }

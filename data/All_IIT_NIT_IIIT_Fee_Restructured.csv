@@ -1,0 +1,325 @@
+﻿College,Category,Tution Fee,Semester Fee ( Non-Refundable ),Non-refundable one time payment,Hostel  & Mess Fee,Refundable Deposit (one time payment at the time of Admission ),Total Amount
+IIT - Bhu,General  /  OBC     ( Income  > 5L ),100000,4050,5750,19050,9000,137850
+IIT - Bhu,General  /  OBC / EWS     ( Income  1L to 5L ),33333,4050,5750,19050,9000,71183
+IIT - Bhu,General  /  OBC / EWS     ( Income  below 1L ),0,4050,5750,19050,9000,37850
+IIT - Bhu,SC / ST / All PwD,0,4050,5750,18750,9000,37550
+IIT - Bhilai,General  /  OBC     ( Income  > 5L ),100000,13750,12000,39520,7000,172270
+IIT - Bhilai,General  /  OBC / EWS     ( Income  1L to 5L ),33333,13750,12000,39520,7000,105603
+IIT - Bhilai,General  /  OBC / EWS     ( Income  below 1L ),0,13750,12000,39520,7000,72270
+IIT - Bhilai,SC / ST / All PwD,0,13750,12000,39520,7000,72270
+IIT - Bhubaneshwar,General  /  OBC     ( Income  > 5L ),100000,11274,8000,27500,12000,158774
+IIT - Bhubaneshwar,General  /  OBC / EWS     ( Income  1L to 5L ),33333,11274,8000,27500,12000,92107
+IIT - Bhubaneshwar,General  /  OBC / EWS     ( Income  below 1L ),0,11274,8000,27500,12000,58774
+IIT - Bhubaneshwar,SC / ST / All PwD,0,11274,8000,27500,12000,58774
+IIT - Bombay,General  /  OBC     ( Income  > 5L ),100000,8150,16000,36900,10000,171050
+IIT - Bombay,General  /  OBC / EWS     ( Income  1L to 5L ),33333,8150,16000,36900,10000,104383
+IIT - Bombay,General  /  OBC / EWS     ( Income  below 1L ),0,8150,16000,36900,10000,71050
+IIT - Bombay,SC / ST / All PwD,0,8150,16000,36900,10000,71050
+IIT - Delhi,General  /  OBC     ( Income  > 5L ),100000,6250,8150,59600,8000,182000
+IIT - Delhi,General  /  OBC / EWS     ( Income  1L to 5L ),33333,6250,8150,59600,8000,115333
+IIT - Delhi,General  /  OBC / EWS     ( Income  below 1L ),0,6250,8150,59600,8000,82000
+IIT - Delhi,SC / ST / All PwD,0,6250,8150,59600,8000,82000
+IIT - Dhanbad,General  /  OBC     ( Income  > 5L ),100000,16200,0,18000,25200,159400
+IIT - Dhanbad,General  /  OBC / EWS     ( Income  1L to 5L ),33333,16220,0,18000,25200,92753
+IIT - Dhanbad,General  /  OBC / EWS     ( Income  below 1L ),0,16220,0,18000,25200,59420
+IIT - Dhanbad,SC / ST / All PwD,0,16220,0,18000,25200,59420
+IIT - Dharwad,General  /  OBC     ( Income  > 5L ),100000,15750,6500,24500,11000,157750
+IIT - Dharwad,General  /  OBC / EWS     ( Income  1L to 5L ),33333,15750,6500,24500,11000,91083
+IIT - Dharwad,General  /  OBC / EWS     ( Income  below 1L ),0,15750,6500,24500,11000,57750
+IIT - Dharwad,SC / ST / All PwD,0,15750,6500,24500,11000,57750
+IIT - Gandhinagar,General  /  OBC     ( Income  > 5L ),100000,9150,14650,43600,9000,176400
+IIT - Gandhinagar,General  /  OBC / EWS     ( Income  1L to 5L ),33333,9150,14650,43600,9000,109733
+IIT - Gandhinagar,General  /  OBC / EWS     ( Income  below 1L ),0,9150,14650,43600,9000,76400
+IIT - Gandhinagar,SC / ST / All PwD,0,9150,14650,43600,9000,76400
+IIT - Goa,General  /  OBC     ( Income  > 5L ),100000,15400,5000,16500,5000,141900
+IIT - Goa,General  /  OBC / EWS     ( Income  1L to 5L ),33333,15400,5000,16500,5000,75233
+IIT - Goa,General  /  OBC / EWS     ( Income  below 1L ),0,15400,5000,16500,5000,41900
+IIT - Goa,SC / ST / All PwD,0,15400,5000,16500,5000,41900
+IIT - Guwahati,General  /  OBC     ( Income  > 5L ),100000,13500,10800,28950,12000,165250
+IIT - Guwahati,General  /  OBC / EWS     ( Income  1L to 5L ),33333,13500,10800,28950,12000,98583
+IIT - Guwahati,General  /  OBC / EWS     ( Income  below 1L ),0,13500,10800,28950,12000,65250
+IIT - Guwahati,SC / ST / All PwD,0,13500,10800,28950,12000,65250
+IIT - Hyderabad,General  /  OBC     ( Income  > 5L ),100000,16619,13000,32430,6000,168049
+IIT - Hyderabad,General  /  OBC / EWS     ( Income  1L to 5L ),33333,16610,13000,32430,6000,101373
+IIT - Hyderabad,General  /  OBC / EWS     ( Income  below 1L ),0,16610,13000,32430,6000,68040
+IIT - Hyderabad,SC / ST / All PwD,0,16610,13000,32430,6000,68040
+IIT - Indore,General  /  OBC     ( Income  > 5L ),100000,23100,8100,18525,10000,159725
+IIT - Indore,General  /  OBC / EWS     ( Income  1L to 5L ),33333,23100,8100,18525,10000,93058
+IIT - Indore,General  /  OBC / EWS     ( Income  below 1L ),0,23100,8100,18525,10000,59725
+IIT - Indore,SC / ST / All PwD,0,23100,8100,18525,10000,59725
+IIT - Jammu,General  /  OBC     ( Income  > 5L ),100000,34945,7220,1800,10000,153965
+IIT - Jammu,General  /  OBC / EWS     ( Income  1L to 5L ),33333,34945,7220,1800,10000,87298
+IIT - Jammu,General  /  OBC / EWS     ( Income  below 1L ),0,34945,7220,1800,10000,53965
+IIT - Jammu,SC / ST / All PwD,0,34945,7220,1800,10000,53965
+IIT - Jodhpur,General  /  OBC     ( Income  > 5L ),100000,27250,6800,19000,8000,161050
+IIT - Jodhpur,General  /  OBC / EWS     ( Income  1L to 5L ),33333,27250,6800,19000,8000,94383
+IIT - Jodhpur,General  /  OBC / EWS     ( Income  below 1L ),0,27250,6800,19000,8000,61050
+IIT - Jodhpur,SC / ST / All PwD,0,27250,6800,19000,8000,61050
+IIT - Kanpur,General  /  OBC     ( Income  > 5L ),100000,23410,5200,15385,26000,169995
+IIT - Kanpur,General  /  OBC / EWS     ( Income  1L to 5L ),33333,23410,5200,15385,26000,103328
+IIT - Kanpur,General  /  OBC / EWS     ( Income  below 1L ),0,23410,5200,15385,26000,69995
+IIT - Kanpur,SC / ST / All PwD,0,23410,5200,15385,26000,69995
+IIT - Kharagpur,General  /  OBC     ( Income  > 5L ),100000,5750,5700,30235,6000,147685
+IIT - Kharagpur,General  /  OBC / EWS     ( Income  1L to 5L ),33333,5750,5700,30235,6000,81018
+IIT - Kharagpur,General  /  OBC / EWS     ( Income  below 1L ),0,5750,5700,30235,6000,47685
+IIT - Kharagpur,SC / ST / All PwD,0,5750,5700,30235,6000,47685
+IIT - Madras,General  /  OBC     ( Income  > 5L ),100000,15402,20000,20750,5000,161152
+IIT - Madras,General  /  OBC / EWS     ( Income  1L to 5L ),33333,15402,20000,20750,5000,94485
+IIT - Madras,General  /  OBC / EWS     ( Income  below 1L ),0,15402,20000,20750,5000,61152
+IIT - Madras,SC / ST / All PwD,0,15402,20000,20750,5000,61152
+IIT - Mandi,General  /  OBC     ( Income  > 5L ),100000,1000,10000,26960,7000,144960
+IIT - Mandi,General  /  OBC / EWS     ( Income  1L to 5L ),33333,1000,10000,26960,7000,78293
+IIT - Mandi,General  /  OBC / EWS     ( Income  below 1L ),0,1000,10000,26960,7000,44960
+IIT - Mandi,SC / ST / All PwD,0,1000,10000,26960,7000,44960
+IIT - Palakkad,General  /  OBC     ( Income  > 5L ),100000,20270,7800,20200,3500,151770
+IIT - Palakkad,General  /  OBC / EWS     ( Income  1L to 5L ),33333,20270,7800,20200,3500,85103
+IIT - Palakkad,General  /  OBC / EWS     ( Income  below 1L ),0,20270,7800,20200,3500,51770
+IIT - Palakkad,SC / ST / All PwD,0,20270,7800,20200,3500,51770
+IIT - Patna,General  /  OBC     ( Income  > 5L ),100000,19194,13750,26975,25000,184919
+IIT - Patna,General  /  OBC / EWS     ( Income  1L to 5L ),33333,19194,13750,26975,25000,118252
+IIT - Patna,General  /  OBC / EWS     ( Income  below 1L ),0,19194,13750,26975,25000,84919
+IIT - Patna,SC / ST / All PwD,0,19194,13750,26975,25000,84919
+IIT - Roorkee,General  /  OBC     ( Income  > 5L ),100000,11300,10000,29250,5000,155550
+IIT - Roorkee,General  /  OBC / EWS     ( Income  1L to 5L ),33333,11300,10000,29250,5000,88883
+IIT - Roorkee,General  /  OBC / EWS     ( Income  below 1L ),0,11300,10000,29250,5000,55550
+IIT - Roorkee,SC / ST / All PwD,0,11300,10000,29250,5000,55550
+IIT - Ropar,General  /  OBC     ( Income  > 5L ),100000,6150,7500,28760,                      -,142410
+IIT - Ropar,General  /  OBC / EWS     ( Income  1L to 5L ),33334,6150,7500,28760,                      -,75744
+IIT - Ropar,General  /  OBC / EWS     ( Income  below 1L ),0,6150,7500,28760,                      -,42410
+IIT - Ropar,SC / ST / All PwD,0,6150,7500,28760,                      -,42410
+IIT - Tirupati,General  /  OBC     ( Income  > 5L ),100000,18305,6550,19600,5000,149455
+IIT - Tirupati,General  /  OBC / EWS     ( Income  1L to 5L ),33333,18305,6550,19600,5000,82788
+IIT - Tirupati,General  /  OBC / EWS     ( Income  below 1L ),0,18305,6550,19600,5000,49455
+IIT - Tirupati,SC / ST / All PwD,0,18305,6550,19600,5000,49455
+"IIT RAM, Ahmedabad, Gujarat",General  /  OBC     ( Income  > 5L ),90000,9000,7000,55000,3000,164000
+"IIT RAM, Ahmedabad, Gujarat",General  /  OBC / EWS     ( Income  1L to 5L ),30000,9000,7000,55000,3000,104000
+"IIT RAM, Ahmedabad, Gujarat",General  /  OBC / EWS     ( Income  below 1L ),0,9000,7000,55000,3000,74000
+"IIT RAM, Ahmedabad, Gujarat",SC / ST / All PwD,0,9000,7000,55000,3000,74000
+NIT Agartala,General  /  OBC     ( Income  > 5L ),35000,6625,6200,24200,10000,82025
+NIT Agartala,General  /  OBC / EWS     ( Income  1L to 5L ),11667,6625,6200,24200,10000,58692
+NIT Agartala,General  /  OBC / EWS     ( Income  below 1L ),0,6625,6200,24200,10000,47025
+NIT Agartala,SC / ST / All PwD,0,6625,6200,24200,10000,47025
+NIT Allahabad,General  /  OBC     ( Income  > 5L ),62500,19000,7000,25000,8000,121500
+NIT Allahabad,General  /  OBC / EWS     ( Income  1L to 5L ),20833,19000,7000,25000,8000,79833
+NIT Allahabad,General  /  OBC / EWS     ( Income  below 1L ),0,19000,7000,25000,8000,59000
+NIT Allahabad,SC / ST / All PwD,0,19000,7000,25000,8000,59000
+NIT Andhra Pradesh,General  /  OBC     ( Income  > 5L ),62500,18600,0,32000,14000,127100
+NIT Andhra Pradesh,General  /  OBC / EWS     ( Income  1L to 5L ),20833,18600,0,32000,14000,85433
+NIT Andhra Pradesh,General  /  OBC / EWS     ( Income  below 1L ),0,18600,0,32000,14000,64600
+NIT Andhra Pradesh,SC / ST / All PwD,0,18600,0,32000,14000,64600
+MANIT Bhopal,General  /  OBC     ( Income  > 5L ),62500,10400,8600,18000,10000,109500
+MANIT Bhopal,General  /  OBC / EWS     ( Income  1L to 5L ),20834,10400,8600,18000,10000,67834
+MANIT Bhopal,General  /  OBC / EWS     ( Income  below 1L ),0,10400,8600,18000,10000,47000
+MANIT Bhopal,SC / ST / All PwD,0,10400,8600,18000,10000,47000
+NIT Calicut,General  /  OBC     ( Income  > 5L ),62500,11786,33000,9000,20000,136286
+NIT Calicut,General  /  OBC / EWS     ( Income  1L to 5L ),20834,11786,33000,9000,20000,94620
+NIT Calicut,General  /  OBC / EWS     ( Income  below 1L ),0,11786,33000,9000,20000,73786
+NIT Calicut,SC / ST / All PwD,0,11786,33000,9000,20000,73786
+NIT Delhi,General  /  OBC     ( Income  > 5L ),62500,24000,7700,20000,30000,144200
+NIT Delhi,General  /  OBC / EWS     ( Income  1L to 5L ),20833,24000,7700,20000,30000,102533
+NIT Delhi,General  /  OBC / EWS     ( Income  below 1L ),0,24000,7700,20000,30000,81700
+NIT Delhi,SC / ST / All PwD,0,24000,7700,20000,30000,81700
+NIT Durgapur,General  /  OBC     ( Income  > 5L ),62500,18600,7500,11500,10000,110100
+NIT Durgapur,General  /  OBC / EWS     ( Income  1L to 5L ),20833,18600,7500,11500,10000,68433
+NIT Durgapur,General  /  OBC / EWS     ( Income  below 1L ),0,18600,7500,11500,10000,47600
+NIT Durgapur,SC / ST / All PwD,0,18600,7500,11500,10000,47600
+NIT Goa,General  /  OBC     ( Income  > 5L ),62500,13000,6000,38250,9000,128750
+NIT Goa,General  /  OBC / EWS     ( Income  1L to 5L ),20833,13000,6000,38250,9000,87083
+NIT Goa,General  /  OBC / EWS     ( Income  below 1L ),0,13000,6000,38250,9000,66250
+NIT Goa,SC / ST / All PwD,0,13000,6000,38250,9000,66250
+NIT Hamirpur,General  /  OBC     ( Income  > 5L ),62500,20600,8000,35000,10000,136100
+NIT Hamirpur,General  /  OBC / EWS     ( Income  1L to 5L ),20833,20600,8000,35000,10000,94433
+NIT Hamirpur,General  /  OBC / EWS     ( Income  below 1L ),0,20600,8000,35000,10000,73600
+NIT Hamirpur,SC / ST / All PwD,0,20600,8000,35000,10000,73600
+MNIT Jaipur,General  /  OBC     ( Income  > 5L ),62500,20215,1600,47000,15000,146315
+MNIT Jaipur,General  /  OBC / EWS     ( Income  1L to 5L ),20834,20215,1600,47000,15000,104649
+MNIT Jaipur,General  /  OBC / EWS     ( Income  below 1L ),0,20215,1600,47000,15000,83815
+MNIT Jaipur,SC / ST / All PwD,0,20215,1600,47000,15000,83815
+NIT Jalandhar,General  /  OBC     ( Income  > 5L ),62500,25500,5500,25000,10000,128500
+NIT Jalandhar,General  /  OBC / EWS     ( Income  1L to 5L ),20840,25500,5500,25000,10000,86840
+NIT Jalandhar,General  /  OBC / EWS     ( Income  below 1L ),0,25500,5500,25000,10000,66000
+NIT Jalandhar,SC / ST / All PwD,0,25500,5500,25000,10000,66000
+NIT Jamshedpur,General  /  OBC     ( Income  > 5L ),62500,12000,22000,33000,10000,139500
+NIT Jamshedpur,General  /  OBC / EWS     ( Income  1L to 5L ),20833,12000,22000,33000,10000,97833
+NIT Jamshedpur,General  /  OBC / EWS     ( Income  below 1L ),0,12000,22000,33000,10000,77000
+NIT Jamshedpur,SC / ST / All PwD,0,12000,22000,33000,10000,77000
+NIT Kurukshetra,General  /  OBC     ( Income  > 5L ),62500,15100,14400,9900,7500,109400
+NIT Kurukshetra,General  /  OBC / EWS     ( Income  1L to 5L ),20833,15100,14400,9900,7500,67733
+NIT Kurukshetra,General  /  OBC / EWS     ( Income  below 1L ),0,15100,14400,9900,7500,46900
+NIT Kurukshetra,SC / ST / All PwD,0,15100,14400,9900,7500,46900
+NIT Manipur,General  /  OBC     ( Income  > 5L ),62500,15400,1500,39000,15000,133400
+NIT Manipur,General  /  OBC / EWS     ( Income  1L to 5L ),20833,15400,1500,39000,15000,91733
+NIT Manipur,General  /  OBC / EWS     ( Income  below 1L ),0,15400,1500,39000,15000,70900
+NIT Manipur,SC / ST / All PwD,0,15400,1500,39000,15000,70900
+NIT Meghalaya,General  /  OBC     ( Income  > 5L ),101150,10750,5500,39000,5000,161400
+NIT Meghalaya,General  /  OBC / EWS     ( Income  1L to 5L ),35000,10750,5500,39000,5000,95250
+NIT Meghalaya,General  /  OBC / EWS     ( Income  below 1L ),10150,10750,5500,39000,5000,70400
+NIT Meghalaya,SC / ST / All PwD,7500,10750,5500,39000,5000,67750
+NIT Mizoram,General  /  OBC     ( Income  > 5L ),62500,10750,5500,39000,5000,122750
+NIT Mizoram,General  /  OBC / EWS     ( Income  1L to 5L ),20833,10750,5500,39000,5000,81083
+NIT Mizoram,General  /  OBC / EWS     ( Income  below 1L ),0,10750,5500,39000,5000,60250
+NIT Mizoram,SC / ST / All PwD,0,10750,5500,39000,5000,60250
+NIT Nagaland,General  /  OBC     ( Income  > 5L ),62500,17750,14700,32000,5000,131950
+NIT Nagaland,General  /  OBC / EWS     ( Income  1L to 5L ),20833,17750,14700,32000,5000,90283
+NIT Nagaland,General  /  OBC / EWS     ( Income  below 1L ),0,17750,14700,32000,5000,69450
+NIT Nagaland,SC / ST / All PwD,0,17750,14700,32000,5000,69450
+VNIT Nagpur,General  /  OBC     ( Income  > 5L ),62500,15400,1500,39000,15000,133400
+VNIT Nagpur,General  /  OBC / EWS     ( Income  1L to 5L ),20833,15400,1500,39000,15000,91733
+VNIT Nagpur,General  /  OBC / EWS     ( Income  below 1L ),0,15400,1500,39000,15000,70900
+VNIT Nagpur,SC / ST / All PwD,0,15400,1500,39000,15000,70900
+NIT Patna,General  /  OBC     ( Income  > 5L ),62500,42050,35500,32000,16000,188050
+NIT Patna,General  /  OBC / EWS     ( Income  1L to 5L ),20833,42050,35500,32000,16000,146383
+NIT Patna,General  /  OBC / EWS     ( Income  below 1L ),0,42050,35500,32000,16000,125550
+NIT Patna,SC / ST / All PwD,0,42050,35500,32000,16000,125550
+NIT Raipur,General  /  OBC     ( Income  > 5L ),62500,19000,7000,25000,8000,121500
+NIT Raipur,General  /  OBC / EWS     ( Income  1L to 5L ),20833,19000,7000,25000,8000,79833
+NIT Raipur,General  /  OBC / EWS     ( Income  below 1L ),0,19000,7000,25000,8000,59000
+NIT Raipur,SC / ST / All PwD,0,19000,7000,25000,8000,59000
+NIT Rourkela,General  /  OBC     ( Income  > 5L ),62500,19000,7000,25000,8000,121500
+NIT Rourkela,General  /  OBC / EWS     ( Income  1L to 5L ),20833,19000,7000,25000,8000,79833
+NIT Rourkela,General  /  OBC / EWS     ( Income  below 1L ),0,19000,7000,25000,8000,59000
+NIT Rourkela,SC / ST / All PwD,0,19000,7000,25000,8000,59000
+NIT Sikkim,General  /  OBC     ( Income  > 5L ),62500,19000,7000,25000,8000,121500
+NIT Sikkim,General  /  OBC / EWS     ( Income  1L to 5L ),20833,19000,7000,25000,8000,79833
+NIT Sikkim,General  /  OBC / EWS     ( Income  below 1L ),0,19000,7000,25000,8000,59000
+NIT Sikkim,SC / ST / All PwD,0,19000,7000,25000,8000,59000
+NIT Silchar,General  /  OBC     ( Income  > 5L ),62500,20705,13500,24000,20000,140705
+NIT Silchar,General  /  OBC / EWS     ( Income  1L to 5L ),20833,20705,13500,24000,20000,99038
+NIT Silchar,General  /  OBC / EWS     ( Income  below 1L ),0,20705,13500,24000,20000,78205
+NIT Silchar,SC / ST / All PwD,0,20705,13500,24000,20000,78205
+SVNIT Surat,General  /  OBC     ( Income  > 5L ),62500,15000,20000,24000,5000,126500
+SVNIT Surat,General  /  OBC / EWS     ( Income  1L to 5L ),20833,15000,20000,24000,5000,84833
+SVNIT Surat,General  /  OBC / EWS     ( Income  below 1L ),0,15000,20000,24000,5000,64000
+SVNIT Surat,SC / ST / All PwD,0,15000,20000,24000,5000,64000
+NIT Karnataka Surathkal,General  /  OBC     ( Income  > 5L ),62500,90970,10000,107890,10000,281360
+NIT Karnataka Surathkal,General  /  OBC / EWS     ( Income  1L to 5L ),20833,67880,10000,76700,10000,185413
+NIT Karnataka Surathkal,General  /  OBC / EWS     ( Income  below 1L ),0,65190,10000,74010,10000,159200
+NIT Karnataka Surathkal,SC / ST / All PwD,0,62500,10000,69450,10000,151950
+NIT Tiruchirappalli,General  /  OBC     ( Income  > 5L ),62500,27750,35300,88200,9100,222850
+NIT Tiruchirappalli,General  /  OBC / EWS     ( Income  1L to 5L ),20833,27750,35300,88200,9100,181183
+NIT Tiruchirappalli,General  /  OBC / EWS     ( Income  below 1L ),0,27750,35300,88200,9100,160350
+NIT Tiruchirappalli,SC / ST / All PwD,0,27750,35300,88200,9100,160350
+NIT Uttarakhand,General  /  OBC     ( Income  > 5L ),62500,13043,25500,20100,13000,134143
+NIT Uttarakhand,General  /  OBC / EWS     ( Income  1L to 5L ),20833,13043,25500,20100,13000,92476
+NIT Uttarakhand,General  /  OBC / EWS     ( Income  below 1L ),0,13043,25500,20100,13000,71643
+NIT Uttarakhand,SC / ST / All PwD,0,13043,25500,20100,13000,71643
+NIT Warangal,General  /  OBC     ( Income  > 5L ),62500,42050,35500,32000,16000,188050
+NIT Warangal,General  /  OBC / EWS     ( Income  1L to 5L ),20833,42050,35500,32000,16000,146383
+NIT Warangal,General  /  OBC / EWS     ( Income  below 1L ),0,42050,35500,32000,16000,125550
+NIT Warangal,SC / ST / All PwD,0,42050,35500,32000,16000,125550
+NIT Arunachal Pradesh,General  /  OBC     ( Income  > 5L ),62500,11000,6600,18000,5000,103100
+NIT Arunachal Pradesh,General  /  OBC / EWS     ( Income  1L to 5L ),20833,11000,6600,18000,5000,61433
+NIT Arunachal Pradesh,General  /  OBC / EWS     ( Income  below 1L ),0,11000,6600,18000,5000,40600
+NIT Arunachal Pradesh,SC / ST / All PwD,0,11000,6600,18000,5000,40600
+IIIT - Agartala,General  /  OBC     ( Income  > 5L ),100000,4425,7700,26500,5000,143625
+IIIT - Agartala,General  /  OBC / EWS     ( Income  1L to 5L ),100000,4425,7700,26500,5000,143625
+IIIT - Agartala,General  /  OBC / EWS     ( Income  below 1L ),100000,4425,7700,26500,5000,143625
+IIIT - Agartala,SC / ST / All PwD,100000,4425,7700,26500,5000,143625
+IIIT - Allahabad,General  /  OBC     ( Income  > 5L ),90000,10535,20210,38640,5330,164715
+IIIT - Allahabad,General  /  OBC / EWS     ( Income  1L to 5L ),90000,10535,20210,38640,5330,164715
+IIIT - Allahabad,General  /  OBC / EWS     ( Income  below 1L ),90000,10535,20210,38640,5330,164715
+IIIT - Allahabad,SC / ST / All PwD,0,10535,20210,38640,5330,74715
+IIIT - Bhagalpur,General  /  OBC     ( Income  > 5L ),144946,13675,10000,41000,10000,219621
+IIIT - Bhagalpur,General  /  OBC / EWS     ( Income  1L to 5L ),144946,13675,10000,41000,10000,219621
+IIIT - Bhagalpur,General  /  OBC / EWS     ( Income  below 1L ),144946,13675,10000,41000,10000,219621
+IIIT - Bhagalpur,SC / ST / All PwD,144946,13675,10000,41000,10000,219621
+IIIT - Bhopal,General  /  OBC     ( Income  > 5L ),108000,17520,6840,50500,12000,194860
+IIIT - Bhopal,General  /  OBC / EWS     ( Income  1L to 5L ),108000,17520,6840,50500,12000,194860
+IIIT - Bhopal,General  /  OBC / EWS     ( Income  below 1L ),108000,17520,6840,50500,12000,194860
+IIIT - Bhopal,SC / ST / All PwD,108000,17520,6840,50500,12000,194860
+IIIT - Bhubaneswar,General  /  OBC     ( Income  > 5L ),117000,24000,5000,15000,27000,188000
+IIIT - Bhubaneswar,General  /  OBC / EWS     ( Income  1L to 5L ),117000,24000,5000,15000,27000,188000
+IIIT - Bhubaneswar,General  /  OBC / EWS     ( Income  below 1L ),117000,24000,5000,15000,27000,188000
+IIIT - Bhubaneswar,SC / ST / All PwD,117000,24000,5000,15000,27000,188000
+IIIT - Dharwad,General  /  OBC     ( Income  > 5L ),188500,0,21500,48000,30000,288000
+IIIT - Dharwad,General  /  OBC / EWS     ( Income  1L to 5L ),188500,0,21500,48000,30000,288000
+IIIT - Dharwad,General  /  OBC / EWS     ( Income  below 1L ),188500,0,21500,48000,30000,288000
+IIIT - Dharwad,SC / ST / All PwD,188500,0,21500,48000,30000,288000
+IIIT - Guwahati,General  /  OBC     ( Income  > 5L ),147500,0,0,29750,5000,182250
+IIIT - Guwahati,General  /  OBC / EWS     ( Income  1L to 5L ),147500,0,0,29750,5000,182250
+IIIT - Guwahati,General  /  OBC / EWS     ( Income  below 1L ),147500,0,0,29750,5000,182250
+IIIT - Guwahati,SC / ST / All PwD,147500,0,0,29750,5000,182250
+IIIT - Kalyani,General  /  OBC     ( Income  > 5L ),125000,4550,15700,63600,10000,218850
+IIIT - Kalyani,General  /  OBC / EWS     ( Income  1L to 5L ),125000,4550,15700,63600,10000,218850
+IIIT - Kalyani,General  /  OBC / EWS     ( Income  below 1L ),125000,4550,15700,63600,10000,218850
+IIIT - Kalyani,SC / ST / All PwD,125000,4550,15700,63600,10000,218850
+IIIT - Kota,General  /  OBC     ( Income  > 5L ),90000,21400,21125,38000,10000,180525
+IIIT - Kota,General  /  OBC / EWS     ( Income  1L to 5L ),90000,21400,21125,38000,10000,180525
+IIIT - Kota,General  /  OBC / EWS     ( Income  below 1L ),90000,21400,21125,38000,10000,180525
+IIIT - Kota,SC / ST / All PwD,72000,21400,21125,38000,17500,170025
+IIIT - Kottayam,General  /  OBC     ( Income  > 5L ),159800,1195,4500,71350,14000,250845
+IIIT - Kottayam,General  /  OBC / EWS     ( Income  1L to 5L ),159800,1195,4500,71350,14000,250845
+IIIT - Kottayam,General  /  OBC / EWS     ( Income  below 1L ),159800,1195,4500,71350,14000,250845
+IIIT - Kottayam,SC / ST / All PwD,159800,1195,4500,71350,14000,250845
+IIIT - Kurnool,General  /  OBC     ( Income  > 5L ),88000,7300,14500,31500,4000,145300
+IIIT - Kurnool,General  /  OBC / EWS     ( Income  1L to 5L ),88000,7300,14500,31500,4000,145300
+IIIT - Kurnool,General  /  OBC / EWS     ( Income  below 1L ),88000,7300,14500,31500,4000,145300
+IIIT - Kurnool,SC / ST / All PwD,0,7300,14500,31500,4000,57300
+IIIT - Lucknow,General  /  OBC     ( Income  > 5L ),124700,650,18000,38740,2000,184090
+IIIT - Lucknow,General  /  OBC / EWS     ( Income  1L to 5L ),124700,650,18000,38740,2000,184090
+IIIT - Lucknow,General  /  OBC / EWS     ( Income  below 1L ),124700,650,18000,38740,2000,184090
+IIIT - Lucknow,SC / ST / All PwD,124700,650,18000,38740,2000,184090
+IIIT - Nayaraipur,General  /  OBC     ( Income  > 5L ),75000,5350,7450,27350,12000,127150
+IIIT - Nayaraipur,General  /  OBC / EWS     ( Income  1L to 5L ),75000,5350,7450,27350,12000,127150
+IIIT - Nayaraipur,General  /  OBC / EWS     ( Income  below 1L ),75000,5350,7450,27350,12000,127150
+IIIT - Nayaraipur,SC / ST / All PwD,75000,5350,7450,27350,12000,127150
+IIIT - Pune,General  /  OBC     ( Income  > 5L ),120000,28375,2000,55385,10000,215760
+IIIT - Pune,General  /  OBC / EWS     ( Income  1L to 5L ),120000,28375,2000,55385,10000,215760
+IIIT - Pune,General  /  OBC / EWS     ( Income  below 1L ),120000,28375,2000,55385,10000,215760
+IIIT - Pune,SC / ST / All PwD,120000,28375,2000,55385,10000,215760
+IIIT - Raichur,General  /  OBC     ( Income  > 5L ),125000,29000,27000,61888,15000,257888
+IIIT - Raichur,General  /  OBC / EWS     ( Income  1L to 5L ),125000,29000,27000,61888,15000,257888
+IIIT - Raichur,General  /  OBC / EWS     ( Income  below 1L ),125000,29000,27000,61888,15000,257888
+IIIT - Raichur,SC / ST / All PwD,125000,29000,27000,61888,15000,257888
+IIIT - Ranchi,General  /  OBC     ( Income  > 5L ),110000,15000,3000,36000,10000,174000
+IIIT - Ranchi,General  /  OBC / EWS     ( Income  1L to 5L ),110000,15000,3000,36000,10000,174000
+IIIT - Ranchi,General  /  OBC / EWS     ( Income  below 1L ),110000,15000,3000,36000,10000,174000
+IIIT - Ranchi,SC / ST / All PwD,110000,15000,3000,36000,10000,174000
+"IIIT - Senapati, Manipur",General  /  OBC     ( Income  > 5L ),140000,5650,6000,57000,15000,223650
+"IIIT - Senapati, Manipur",General  /  OBC / EWS     ( Income  1L to 5L ),140000,5650,6000,57000,15000,223650
+"IIIT - Senapati, Manipur",General  /  OBC / EWS     ( Income  below 1L ),140000,5650,6000,57000,15000,223650
+"IIIT - Senapati, Manipur",SC / ST / All PwD,140000,5650,6000,57000,15000,223650
+IIIT - Sonepat,General  /  OBC     ( Income  > 5L ),90000,11749,10319,50400,10148,172616
+IIIT - Sonepat,General  /  OBC / EWS     ( Income  1L to 5L ),90000,11749,10319,50400,10148,172616
+IIIT - Sonepat,General  /  OBC / EWS     ( Income  below 1L ),90000,11749,10319,50400,10148,172616
+IIIT - Sonepat,SC / ST / All PwD,90000,11749,10319,50400,10148,172616
+IIIT - Sricity,General  /  OBC     ( Income  > 5L ),175000,1500,19000,44000,20000,259500
+IIIT - Sricity,General  /  OBC / EWS     ( Income  1L to 5L ),175000,1500,19000,44000,20000,259500
+IIIT - Sricity,General  /  OBC / EWS     ( Income  below 1L ),175000,1500,19000,44000,20000,259500
+IIIT - Sricity,SC / ST / All PwD,175000,1500,19000,44000,20000,259500
+IIIT - Surat,General  /  OBC     ( Income  > 5L ),99100,15750,20000,51000,0,185850
+IIIT - Surat,General  /  OBC / EWS     ( Income  1L to 5L ),99100,15750,20000,51000,0,185850
+IIIT - Surat,General  /  OBC / EWS     ( Income  below 1L ),99100,15750,20000,51000,0,185850
+IIIT - Surat,SC / ST / All PwD,99100,15750,20000,51000,0,185850
+IIIT - Trichy,General  /  OBC     ( Income  > 5L )   / All PwD,115200,15600,13200,45600,12000,201600
+IIIT - Trichy,General  /  OBC / EWS     ( Income  1L to 5L ),115200,15600,13200,45600,12000,201600
+IIIT - Trichy,General  /  OBC / EWS     ( Income  below 1L ),115200,15600,13200,45600,12000,201600
+IIIT - Trichy,SC / ST,0,15600,13200,45600,12000,86400
+IIIT - Una,General  /  OBC     ( Income  > 5L ),105000,30000,0,47800,5000,187800
+IIIT - Una,General  /  OBC / EWS     ( Income  1L to 5L ),105000,30000,0,47800,5000,187800
+IIIT - Una,General  /  OBC / EWS     ( Income  below 1L ),105000,30000,0,47800,5000,187800
+IIIT - Una,SC / ST / All PwD,105000,30000,0,47800,5000,187800
+IIIT - Vadodara,General  /  OBC     ( Income  > 5L ),125000,10620,5100,77500,20000,238220
+IIIT - Vadodara,General  /  OBC / EWS     ( Income  1L to 5L ),125000,10620,5100,77500,20000,238220
+IIIT - Vadodara,General  /  OBC / EWS     ( Income  below 1L ),125000,10620,5100,77500,20000,238220
+IIIT - Vadodara,SC / ST / All PwD,125000,10620,5100,77500,20000,238220
+IIITDM - Jabalpur,General  /  OBC     ( Income  > 5L ),71750,7500,10500,26000,5000,120750
+IIITDM - Jabalpur,General  /  OBC / EWS     ( Income  1L to 5L ),71750,7500,10500,26000,5000,120750
+IIITDM - Jabalpur,General  /  OBC / EWS     ( Income  below 1L ),71750,7500,10500,26000,5000,120750
+IIITDM - Jabalpur,SC / ST / All PwD,0,7500,10500,26000,5000,49000
+IIITDM - Kanchipuram,General  /  OBC     ( Income  > 5L ),73000,5025,5000,33400,0,116425
+IIITDM - Kanchipuram,General  /  OBC / EWS     ( Income  1L to 5L ),73000,5025,5000,33400,0,116425
+IIITDM - Kanchipuram,General  /  OBC / EWS     ( Income  below 1L ),73000,5025,5000,33400,0,116425
+IIITDM - Kanchipuram,SC / ST / All PwD,0,5025,5000,33400,0,43425
+IIITM - Gwalior,General  /  OBC     ( Income  > 5L ) / All PwD,87000,10000,12250,32000,15000,156250
+IIITM - Gwalior,General  /  OBC / EWS     ( Income  1L to 5L ),87000,10000,12250,32000,15000,156250
+IIITM - Gwalior,General  /  OBC / EWS     ( Income  below 1L ),87000,10000,12250,32000,15000,156250
+IIITM - Gwalior,SC / ST,0,10000,12250,32000,15000,69250
+IIITN  - Nagpur,General  /  OBC     ( Income  > 5L ),99000,15150,16000,56000,7000,193150
+IIITN  - Nagpur,General  /  OBC / EWS     ( Income  1L to 5L ),99000,15150,16000,56000,7000,193150
+IIITN  - Nagpur,General  /  OBC / EWS     ( Income  below 1L ),99000,15150,16000,56000,7000,193150
+IIITN  - Nagpur,SC / ST / All PwD,99000,15150,16000,56000,7000,193150
+"IIITV-ICD, Diu",General  /  OBC     ( Income  > 5L ),125000,10060,5100,56500,20000,216660
+"IIITV-ICD, Diu",General  /  OBC / EWS     ( Income  1L to 5L ),125000,10060,5100,56500,20000,216660
+"IIITV-ICD, Diu",General  /  OBC / EWS     ( Income  below 1L ),125000,10060,5100,56500,20000,216660
+"IIITV-ICD, Diu",SC / ST / All PwD,125000,10060,5100,56500,20000,216660

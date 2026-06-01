@@ -10,14 +10,13 @@ export class FeesController {
     return this.feesService.getAll();
   }
 
-  @Get('by-type')
-  getByType(@Query('type') type: string) {
-    return this.feesService.getByType(type || 'IIT');
+  @Get('colleges')
+  getCollegeNames() {
+    return this.feesService.getCollegeNames();
   }
 
-  @Get('lookup')
-  async lookup(@Query('shortName') shortName: string) {
-    const result = await this.feesService.getByShortName(shortName);
-    return result ?? { error: 'Not found' };
+  @Get('college')
+  getByCollege(@Query('college') college: string) {
+    return this.feesService.getByCollege(college);
   }
 }

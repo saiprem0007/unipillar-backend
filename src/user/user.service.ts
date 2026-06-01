@@ -3,7 +3,7 @@ import { PrismaService } from '../prisma/prisma.service';
 
 @Injectable()
 export class UserService {
-  constructor(private prisma: PrismaService) {}
+  constructor(private prisma: PrismaService) { }
 
   // ================= GET FULL PROFILE =================
   async getProfile(userId: string) {
@@ -23,7 +23,18 @@ export class UserService {
 
   // ================= UPDATE USER PROFILE =================
   async updateProfile(userId: string, data: any) {
-    return this.prisma.userProfile.upsert({
+    // 1. update USER table (name, email, mobile)
+    await this.prisma.user.update({
+      where: { id: userId },
+      data: {
+        name: data.name,
+        email: data.email,
+        mobile: data.mobile,
+      },
+    });
+
+    // 2. update USER PROFILE table (academic info)
+    await this.prisma.userProfile.upsert({
       where: { userId },
       update: {
         category: data.category,
@@ -41,6 +52,16 @@ export class UserService {
         homeState: data.homeState,
         jeeMains: data.jeeMains,
         jeeAdvanced: data.jeeAdvanced,
+      },
+    });
+
+    // 3. return fresh updated user
+    return this.prisma.user.findUnique({
+      where: { id: userId },
+      include: {
+        profile: true,
+        josaaAllocations: true,
+        csabAllocations: true,
       },
     });
   }
