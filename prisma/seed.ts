@@ -35,7 +35,7 @@ function detectType(name: string, shortName: string): string {
 
 async function seedSeatRecords() {
   const results: any[] = []
-  const filePath = path.join(__dirname, '../data/final_list.csv')
+  const filePath = path.join(__dirname, '../data/final_list_merged.csv')
 
   await new Promise<void>((resolve, reject) => {
     fs.createReadStream(filePath)
