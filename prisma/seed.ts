@@ -82,7 +82,7 @@ async function seedSeatRecords() {
 
 async function seedCollegeFees() {
   const results: any[] = []
-  const filePath = path.join(__dirname, '../data/collage_fees.csv')
+  const filePath = path.join(__dirname, '../data/All_IIT_NIT_Colleges_Fees.csv')
 
   await new Promise<void>((resolve, reject) => {
     fs.createReadStream(filePath)
