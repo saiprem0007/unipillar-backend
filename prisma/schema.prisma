@@ -138,6 +138,8 @@ model CutoffPrediction {
   globalPrestigeIndex      Float?
   globalBranchPopularity   Float?
   createdAt                DateTime @default(now())
+
+  @@map("PredictedCutoff")
 }
 
 model PreferenceProfile {
