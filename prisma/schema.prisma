@@ -128,15 +128,15 @@ model CutoffPrediction {
   id                       String   @id
   institute                String
   branchShortcut           String
-  degreeType               String?
-  quota                    String?
-  seatType                 String?
-  gender                   String?
-  collegeState             String?
+  degreeType               String
+  quota                    String
+  seatType                 String
+  gender                   String
+  collegeState             String
   predictedClosingRank2026 Int
-  instituteType            String?
-  globalPrestigeIndex      Float?
-  globalBranchPopularity   Float?
+  instituteType            String
+  globalPrestigeIndex      Int
+  globalBranchPopularity   Int
   createdAt                DateTime @default(now())
 
   @@map("PredictedCutoff")

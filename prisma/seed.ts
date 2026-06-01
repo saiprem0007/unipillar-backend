@@ -86,7 +86,7 @@ async function seedCollegeFees() {
 
   await new Promise<void>((resolve, reject) => {
     fs.createReadStream(filePath)
-      .pipe(csv({ mapHeaders: ({ header }) => header.trim() }))
+      .pipe(csv({ mapHeaders: ({ header }) => header.replace(/\s+/g, ' ').trim() }))
       .on('data', (data) => results.push(data))
       .on('end', resolve)
       .on('error', reject)
@@ -97,16 +97,29 @@ async function seedCollegeFees() {
   const formattedFees: any[] = []
 
   for (const row of results) {
-    const collegeName = (row['CollegeName'] || '').trim()
-    const collegeShortName = (row['CollegeShortName'] || '').trim()
-    const fees = parseAmount(row['Fees'] || '0')
-    const instType = detectType(collegeName, collegeShortName)
+    const college = (row['College'] || '').trim()
+    const category = (row['Category'] || '').trim()
+    const tuitionFee = parseAmount(row['Tution Fee'] || '0')
+    const semesterFee = parseAmount(row['Semester Fee ( Non-Refundable )'] || '0')
+    const nonRefundableOneTimePayment = parseAmount(row['Non-refundable one time payment'] || '0')
+    const hostelMessFee = parseAmount(row['Hostel & Mess Fee'] || '0')
+    const refundableDeposit = parseAmount(row['Refundable Deposit (one time payment at the time of Admission )'] || '0')
+    const totalAmount = parseAmount(row['Total Amount'] || '0')
 
-    if (!collegeName || !collegeShortName || fees === 0) {
+    if (!college || !category || totalAmount === 0) {
       continue
     }
 
-    formattedFees.push({ collegeName, collegeShortName, fees, instType })
+    formattedFees.push({
+      college,
+      category,
+      tuitionFee,
+      semesterFee,
+      nonRefundableOneTimePayment,
+      hostelMessFee,
+      refundableDeposit,
+      totalAmount,
+    })
   }
 
   await prisma.collegeFeeV2.createMany({
@@ -150,16 +163,16 @@ async function seedCutoffPredictions() {
     return {
       id: idId,
       institute: institute,
-      collegeState: row['college_state'] || null,
+      collegeState: row['college_state'] || '',
       branchShortcut: branchShortcut,
-      degreeType: row['degree_type'] || null,
+      degreeType: row['degree_type'] || '',
       quota: quota,
       seatType: seatType,
       gender: gender,
       predictedClosingRank2026: Number(row['predicted_closing_rank_2026']) || 0,
-      instituteType: row['institute_type'] || null,
-      globalPrestigeIndex: parseFloat(row['Global_Prestige_Index']) || 0,
-      globalBranchPopularity: parseFloat(row['Global_Branch_Popularity']) || 0,
+      instituteType: row['institute_type'] || '',
+      globalPrestigeIndex: Math.round(Number(row['Global_Prestige_Index'])) || 0,
+      globalBranchPopularity: Math.round(Number(row['Global_Branch_Popularity'])) || 0,
     }
   })
 
