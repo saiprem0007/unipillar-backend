@@ -84,7 +84,7 @@ export class PredictorService {
       // PYTHON EXECUTION
       // =========================
 
-      const pythonPath = process.env.PYTHON_CMD || 'python';
+      const pythonPath = process.env.PYTHON_CMD || 'python3';
 
       const scriptPath = path.join(
         process.cwd(),
