@@ -11,7 +11,7 @@ import Razorpay from 'razorpay';
 import * as crypto from 'crypto';
 
 const PLAN_AMOUNTS: Record<PlanType, number> = {
-    [PlanType.ELITE]: 59900, // ₹999 in paise
+    [PlanType.ELITE]: 59900, // ₹599 in paise
 };
 
 @Injectable()
